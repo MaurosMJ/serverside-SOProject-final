@@ -45,6 +45,10 @@ public class ResourceOverload {
             }
         } catch (OutOfMemoryError e) {
             System.err.println("Memória esgotada!");
+            memoryLoad.clear();
+            memoryLoad = null;
+            System.gc();
+            System.err.println("FUDEU!");
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
         }
