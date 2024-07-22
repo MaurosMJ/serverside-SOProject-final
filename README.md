@@ -2,7 +2,7 @@
 
 ###### @Author: MaurosMJ
 
-<div align="center">
+<div style="text-align:center;">
     <img src="https://imgur.com/O8Cy2wQ.png" alt="FX Logo" width="100" height="100">
 </div>
 
@@ -26,11 +26,11 @@ This repository contains my final work for the operating systems course. It esse
 
 For this project, Docker was used, and the chosen operating system was Alpine due to its lightness, simplicity, and ease of use. On the server side, there are three main services:
  
-<div align="center">
+<div style="text-align:center;">
     <img src="https://imgur.com/P0CqxtL.png" alt="JavaFX Overview">
 </div>
 
-<div align="center">
+<div style="text-align:center;">
     <img src="https://imgur.com/tcvXv44.png" alt="JavaFX Overview">
 </div>
  
@@ -48,32 +48,32 @@ On the client side, Java Swing was used to create a graphical user interface all
   - **v1:** In the first version, it is possible to monitor the resource consumption of the server-side.
   - **v2:** In the second version, this feature was removed, and the port is static.
 
-<div align="center">
+<div style="text-align:center;">
     <img src="https://imgur.com/yEEAwY7.png" alt="JavaFX Overview">
 </div>
 
 Currently, this repository is working on a second version that involves using Apache Tomcat as the application server in the container. All projects should be contained within it, and access to monitoring will be via a WEB interface. This required some changes to the project:
-
+  
 **All access will be done through port 80 (HTTP):**
-
-<div align="center">
+  
+<div style="text-align:center;">
     <img src="https://imgur.com/oavZpkh.png" alt="JavaFX Overview">
 </div>
-
+  
 **The container will only have Tomcat running:**
-
-<div align="center">
+  
+<div style="text-align:center;">
     <img src="https://imgur.com/TpXtCHp.png" alt="JavaFX Overview">
 </div>
-
+  
 **The graphical user interface must be redesigned:**
 
-<div align="center">
+<div style="text-align:center;">
     <img src="https://imgur.com/7pzqHD2.png" alt="JavaFX Overview">
 </div>
-
+  
 > **⚠️ NOTE: This project is currently under development and is not yet completed.**
-
+  
 ## Worknotes & Commits:
 
 ##### Worknote #1 - Created GUI and Local Monitoring
